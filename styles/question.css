@@ -1,0 +1,88 @@
+.question-section {
+  padding: 6.2rem 0;
+  background-color: white;
+  font-family: "Poppins";
+}
+
+.question-section .container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.qa-section-image {
+  max-width: 496px;
+  max-height: 474px;
+  width: 50%;
+  object-fit: contain;
+}
+
+.blogs {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+}
+
+.blog {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  font-family: "Poppins";
+  position: relative;
+}
+
+.blog-label {
+  font-family: "Poppins";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  color: #333;
+  font-size: 2rem;
+}
+
+.toggle-icon {
+  transition: transform 0.3s ease;
+}
+
+.toggle-checkbox {
+  display: none;
+}
+
+.toggle-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.toggle-checkbox:checked ~ .toggle-content {
+  max-height: 200px; /* Adjust based on content size */
+}
+
+.toggle-checkbox:not(:checked) + .blog-label .toggle-icon::before {
+  content: "+";
+}
+
+.toggle-checkbox:checked + .blog-label .toggle-icon::before {
+  content: "-";
+}
+
+
+@media (max-width: 1000px) {
+    .question-section .container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        gap: 3rem;
+      }
+
+      .qa-section-image {
+        margin: auto;
+        display: block;
+        object-position: center;
+        width: 100%;
+        object-fit: contain;
+      }
+}
