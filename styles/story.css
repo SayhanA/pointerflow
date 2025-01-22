@@ -1,0 +1,58 @@
+.story-section {
+  padding: 6.25rem;
+}
+
+.story-section .section-title {
+  display: block;
+  font-family: Mollie glaston;
+  font-size: 4.5rem;
+  font-weight: 400;
+  line-height: 86.4px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.story-content {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.story-section .main-heading {
+  font-family: Mollie glaston;
+  margin-top: 3rem;
+  /* font-size: 7.5rem; */
+  font-size: 6.2vw;
+  font-weight: 400;
+  line-height: 7.4vw;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.product-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.product-image img {
+  max-width: 458.24px;
+  /* height: 425.5px; */
+  width: 100%;
+  top: 411.6px;
+  left: 683.38px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  color: black;
+}
+.see-products {
+  color: black;
+}
