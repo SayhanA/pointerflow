@@ -1,0 +1,78 @@
+.advertise-section {
+  padding: 6.4rem 0;
+}
+
+.advertise-section .content {
+  display: flex;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.advertise-section .content img {
+  max-width: 50%;
+}
+
+.docoment {
+  width: 50%;
+  min-height: 100%;
+  padding: 6rem 4rem;
+  background-color: #45726c;
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  color: white;
+}
+
+.docoment .leaf {
+  max-width: 191.36px;
+  max-height: 162.1px;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+  mix-blend-mode: soft-light;
+}
+
+.circle {
+  max-width: 520px;
+  max-width: 520px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.content-title {
+  text-align: left;
+  color: white;
+}
+
+.content-description {
+  max-width: 430px;
+  font-family: Lato;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.btn-primary {
+    margin-top: 2rem;
+  color: white;
+  display: block;
+  width: fit-content;
+}
+
+@media (max-width: 720px) {
+  .advertise-section .content {
+    display: block;
+  }
+
+  .docoment {
+    width: 100%;
+  }
+
+  .advertise-section .content img {
+    max-width: 100%;
+  }
+}

@@ -53,7 +53,7 @@
 }
 
 @media (max-width: 450px) {
-    .testimonial {
-      min-width: 100%;
-    }
+  .testimonial {
+    min-width: 100%;
   }
+}
