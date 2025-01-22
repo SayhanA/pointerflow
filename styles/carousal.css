@@ -4,7 +4,7 @@
   background: linear-gradient(#FCFAF0, white);
 }
 
-.section-title {
+.new-arrivals-section .section-title {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
   display: flex;

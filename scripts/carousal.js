@@ -73,3 +73,5 @@ nextBtn.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
+
