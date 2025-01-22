@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./styles/choose-product-section.css" />
     <link rel="stylesheet" href="./styles/rating.css" />
     <link rel="stylesheet" href="./styles/advertise.css" />
+    <link rel="stylesheet" href="./styles/gallery.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -336,6 +337,25 @@
       </div>
     </section>
 
+   
+    <section class="gallery-section">
+      <div class="container">
+          <h2 class="section-title">
+              Our Gallery
+              <div class="carousel-buttons">
+                  <button class="carousel-btn gallery-prev-btn" aria-label="Previous">
+                      <img src="./assets/svgs/carousalLeftIcon.svg" alt="carousel left button" />
+                  </button>
+                  <button class="carousel-btn gallery-next-btn" aria-label="Next">
+                      <img src="./assets/svgs/carousalRightIcon.svg" alt="carousel right button" />
+                  </button>
+              </div>
+          </h2>
+      </div>
+      <div class="carousel-container"></div>
+      <div class="gallery-carousel" id="gallery-carousel"></div>
+  
+
     <!-- <footer class="footer">
       <p>Explore</p>
     </footer> -->
@@ -343,5 +363,6 @@
     <script src="./scripts/products.js"></script>
     <script src="./scripts/screenProduct.js"></script>
     <script src="./scripts/rating.js"></script>
+    <script src="./scripts/gallery.js"></script>
   </body>
 </html>
