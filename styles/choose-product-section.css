@@ -1,0 +1,56 @@
+.text-section {
+    width: 60%;
+    padding-right: 20px;
+}
+
+.text-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.benefit {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.benefit-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #e0f7fa;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.benefit-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.benefit-text {
+    max-width: 400px;
+}
+
+.benefit-text h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.benefit-text p {
+    margin: 5px 0 0;
+}
+
+.image-section {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    max-width: 100%;
+    border-radius: 10px;
+}

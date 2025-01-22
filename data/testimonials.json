@@ -1,0 +1,34 @@
+[
+    {
+        "image": "../assets/images/users/2.png",
+        "name": "Emily Thompson",
+        "title": "Dermatologist",
+        "rating": "⭐⭐⭐⭐⭐",
+        "text": "After using this serum for just a week, I noticed a significant improvement in my skin’s texture and radiance. As a dermatologist, I highly recommend it.",
+        "work": "Beauty instructor"
+    },
+    {
+        "image": "../assets/images/users/2.png",
+        "name": "Rachel Nguyen",
+        "title": "Beauty Influencer",
+        "rating": "⭐⭐⭐⭐⭐",
+        "text": "This moisturizer is a game changer! My skin feels soft and hydrated all day. I’ve incorporated it into my daily routine and can’t imagine living without it!",
+        "work": "Beauty instructor"
+    },
+    {
+        "image": "../assets/images/users/2.png",
+        "name": "Carlos Diaz",
+        "title": "Skincare Enthusiast",
+        "rating": "⭐⭐⭐⭐⭐",
+        "text": "I’ve tried countless products over the years, but nothing compares to this! My skin has never looked so clear and vibrant!",
+        "work": "Beauty instructor"
+    },
+    {
+        "image": "../assets/images/users/2.png",
+        "name": "Alex Johnson",
+        "title": "Health Blogger",
+        "rating": "⭐⭐⭐⭐⭐",
+        "text": "Absolutely love this product! It's made such a difference in my skin. Highly recommend to anyone looking to improve their skincare routine.",
+        "work": "Beauty instructor"
+    }
+]
