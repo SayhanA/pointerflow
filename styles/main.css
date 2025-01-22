@@ -282,6 +282,7 @@ aside {
   right: -100%;
   top: 80px;
   transition: all 0.2s ease-in-out;
+  background-color: var(--Linen);
   z-index: 1000000000;
 }
 
