@@ -1,0 +1,56 @@
+.newsletter{
+    padding: 6.2rem 0;
+}
+
+.newsletter-banner {
+    background-color: #45726c;
+    background-image: url('https://s3-alpha-sig.figma.com/img/e416/2300/4ac4983ee590efbd5a298d48df3b62bd?Expires=1738540800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=a1PXG-8pXMNd7CdVuCLYlmosUyK447VDYSZbCJaqicRFN2dVgbgd5YAQOACiGwum8nGIneqZ3F41ImDUM-FFRIariBPeFBmZ2FRz7HXFgk0moVk1fPygmRfiif0zWg-l~AYkGZRpLRHdfiV45kd2Nxy8dyl55T9kF-95Esa2JIf4hqEKhLhsaFpXvQErTKGDE18P91BGiNP86uwbzQs5ikUj9W250d5Uh7NJtl91wdmTGwUVyP50sjZeZjHf9j8t1KudPdQZ0T0d5sb0iVE6UR-kTVRIoDzMtGuDkjzTLtrVd4-E7ZpiE3iIgPEdTJ2New80pW2fjCUPb5yZIwyadQ__'); /* Replace with actual image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 6.2rem;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    background-blend-mode: hard-light;
+}
+
+.newsletter-banner .content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.newsletter-banner p {
+    margin-bottom: 5rem;
+}
+
+.newsletter-banner .input-group {
+    padding: 12px;
+    background-color: white;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter-banner input[type="email"] {
+    padding: 0 1rem;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 300px;
+}
+
+/* .newsletter-banner button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #2c7a7b;
+    color: white;
+    cursor: pointer;
+} */
+
+.newsletter-banner button:hover {
+    background-color: #285e61;
+}
