@@ -54,3 +54,18 @@
 .newsletter-banner button:hover {
     background-color: #285e61;
 }
+
+@media (max-width: 522px) {
+    .newsletter-banner {
+        padding: 1rem;
+    }
+    .newsletter-banner .input-group {
+        display: block;
+        background-color: transparent;
+    }
+    .newsletter-banner input[type="email"] {
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+    }
+}
