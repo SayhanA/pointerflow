@@ -7,7 +7,7 @@
   align-items: center;
   padding: 2rem 0;
   overflow: hidden;
-  border: 1px solid;
+  position: relative;
 }
 
 .hero .container {
@@ -26,7 +26,7 @@
 
 .hero-title {
   display: inline;
-  font-family: "Mollie", Courier, monospace;
+  font-family: "Mollie glaston", Courier, monospace;
   line-height: 110px;
   font-weight: 400;
   font-size: 4.5rem;
@@ -56,7 +56,7 @@
 }
 
 .stat span {
-  font-family: "Mollie";
+  font-family: "Mollie glaston";
   color: #3b7b64;
 }
 

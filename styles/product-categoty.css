@@ -1,0 +1,78 @@
+.product-category {
+  max-width: 1236px;
+  padding: 100px 0;
+  margin: auto;
+}
+
+.categories {
+  margin-top: 3rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8.75rem;
+  row-gap: 6rem;
+}
+
+.category {
+  font-size: 4.2rem;
+  font-weight: 400;
+  line-height: 5.375rem;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  font-family: "Mollie glaston", serif;
+  color: var(--light-black);
+  position: relative;
+}
+
+.category-name {
+  display: block;
+}
+
+.category-count {
+  font-size: 2rem;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+
+  font-family: Mollie glaston;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.featured-category {
+  color: var(--Grayish-green);
+  font-size: 3rem;
+  position: relative;
+}
+
+.category-image {
+  width: 203.32px;
+  height: 203.32px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -10;
+}
+
+@media (max-width: 768px) {
+  .categories {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .featured-category {
+    font-size: 2.5rem;
+  }
+
+  .category-image {
+    width: 60px;
+  }
+}

@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Mollie";
+  font-family: "Mollie glaston";
   src: url("../assets/fonts/Mollie_glaston_Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -35,20 +35,21 @@
 
 /* Apply the font to your elements */
 body {
+  width: 100%;
   display: block;
   font-family: "Lato";
   font-weight: 400;
   font-style: normal;
-  width: 100vw;
   height: auto;
   overflow-x: hidden;
+  position: relative;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-li{
+li {
   list-style: none;
 }
 
@@ -162,8 +163,12 @@ li{
   color: var(--Deep-aquamarine);
 }
 
+.text-center {
+  text-align: center;
+}
+
 .Section-title {
-  font-family: "Mollie", Courier, monospace;
+  font-family: "Mollie glaston", Courier, monospace;
   font-size: 4.5rem;
   margin-bottom: 1rem;
 }
@@ -178,7 +183,6 @@ li{
   align-items: center;
   padding: 1.5rem 0;
   z-index: 10000;
-
 }
 
 .head-container {
@@ -268,7 +272,7 @@ li{
   cursor: pointer;
 }
 
-.sidebar{
+.sidebar {
   display: none;
 }
 
@@ -328,7 +332,6 @@ aside {
   align-items: start;
 }
 
-
 @media (max-width: 832px) {
   html {
     font-size: 14px;
@@ -344,7 +347,6 @@ aside {
 
   .side-nav {
     display: block !important;
-
   }
   .side-nav > ul {
     display: flex;
@@ -353,7 +355,7 @@ aside {
     font-size: 1.2rem;
   }
 
-  .sidebar{
+  .sidebar {
     display: block;
   }
 }
