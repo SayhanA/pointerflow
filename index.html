@@ -6,8 +6,9 @@
     <title>Glowwave</title>
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="./styles/hero.css" />
-    <link rel="stylesheet" href="./styles/product-categoty.css">
-    
+    <link rel="stylesheet" href="./styles/product-categoty.css" />
+    <link rel="stylesheet" href="./styles/carousal.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -133,7 +134,6 @@
     <section class="container product-category">
       <h2 class="text-2xl text-center">Product Category</h2>
       <div class="categories">
-
         <div class="category">
           <span class="category-name">Cleansers</span>
           <span class="category-count">10</span>
@@ -163,12 +163,32 @@
           <div class="category-name">Serums</div>
           <div class="category-count">34</div>
         </div>
+      </div>
+    </section>
 
+    <!-- New Product Arrival -->
+    <section class="new-arrivals-section">
+      <div class="container">
+        <h2 class="section-title">
+          New Arrivals
+          <div class="carousal-buttons">
+            <button class="carousel-btn prev-btn" aria-label="Previous">
+              <img src="./assets/svgs/carousalLeftIcon.svg" alt="carousal left button" />
+            </button>
+            <button class="carousel-btn next-btn" aria-label="Next">
+              <img src="./assets/svgs/carousalRightIcon.svg" alt="carousal right button" />
+            </button>
+          </div>
+        </h2>
+        <div class="carousel-container">
+          <div class="carousel" id="carousel"></div>
+        </div>
       </div>
     </section>
 
     <!-- <footer class="footer">
       <p>Explore</p>
     </footer> -->
+    <script src="./scripts/carousal.js"></script>
   </body>
 </html>
