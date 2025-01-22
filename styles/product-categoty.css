@@ -4,7 +4,7 @@
   margin: auto;
 }
 
-.categories {
+.product-category .categories {
   margin-top: 3rem;
   display: flex;
   flex-flow: row wrap;
@@ -14,7 +14,7 @@
   row-gap: 6rem;
 }
 
-.category {
+.product-category .category {
   font-size: 4.2rem;
   font-weight: 400;
   line-height: 5.375rem;
