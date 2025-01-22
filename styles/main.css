@@ -1,0 +1,358 @@
+@font-face {
+  font-family: "Mollie";
+  src: url("../assets/fonts/Mollie_glaston_Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Trail";
+  src: url("../assets/fonts/TrailFree.otf") format("opentype"),
+    url("../assets/fonts/TrailFree.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --light-black: #262626;
+  --Grayish-green: #657e68;
+  --Deep-jungle-green: #164d47;
+  --Deep-aquamarine: #45726c;
+  --deep-gray: #6f6f6f;
+  --light-mint-green: #ddf1e5;
+  --Linen: #f7e6d9;
+  --Lemon-chifon: #f9f1ce;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply the font to your elements */
+body {
+  display: block;
+  font-family: "Lato";
+  font-weight: 400;
+  font-style: normal;
+  width: 100vw;
+  height: auto;
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+/* Text Sizes (in REM) */
+.text-xs {
+  font-size: 0.75rem; /* 12px */
+}
+
+.text-sm {
+  font-size: 0.875rem; /* 14px */
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.text-base {
+  font-size: 1rem; /* 16px */
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.text-lg {
+  font-size: 1.125rem; /* 18px */
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.text-xl {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.text-2xl {
+  font-size: 1.5rem; /* 24px */
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.text-3xl {
+  font-size: 1.875rem; /* 30px */
+}
+
+.text-4xl {
+  font-size: 2.25rem; /* 36px */
+}
+
+.text-5xl {
+  font-size: 3rem; /* 48px */
+}
+
+.text-6xl {
+  font-size: 4rem; /* 64px */
+}
+
+.container {
+  width: 90%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.btn-secondary {
+  font-size: 1.25rem;
+  padding: 15px 24px;
+  border-radius: 70px;
+  border: 1px solid var(--Deep-aquamarine);
+  background-color: var(--Deep-aquamarine);
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary {
+  font-size: 1.25rem;
+  padding: 15px 24px;
+  border-radius: 70px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-secondary:hover {
+  background-color: white;
+  color: var(--Deep-aquamarine);
+  font: bold;
+  border: 1px solid var(--Deep-aquamarine);
+}
+
+.btn-primary:hover {
+  border-color: var(--Deep-aquamarine);
+  color: var(--Deep-aquamarine);
+}
+
+.Section-title {
+  font-family: "Mollie", Courier, monospace;
+  font-size: 4.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Header */
+.header {
+  display: block;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  z-index: 10000;
+
+}
+
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  font-family: Trail;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 45.94px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.logo > a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav a {
+  font-family: "Lato";
+  text-decoration: none;
+  color: #333;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.iocns > span {
+  width: 44px;
+  height: 40px;
+  gap: 0px;
+  opacity: 0px;
+  cursor: pointer;
+}
+
+.icon-search {
+  width: 18px;
+  height: 18px;
+  top: 3px;
+  left: 3px;
+  gap: 0px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  background-image: url("../assets//svgs/searchIcon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.icon-cart {
+  width: 1.5rem;
+  height: 1.5rem;
+  gap: 0px;
+  opacity: 0px;
+  background-image: url("../assets//svgs/shopIcon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.language-select {
+  border: 0;
+  background-color: transparent;
+  font-family: Lato;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.sidebar{
+  display: none;
+}
+
+aside {
+  display: none;
+  flex-flow: column nowrap;
+  padding: 20px;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  right: -100%;
+  top: 80px;
+  transition: all 0.2s ease-in-out;
+  z-index: 1000000000;
+}
+
+#toggler:checked + aside {
+  display: flex;
+  right: 0;
+  gap: 1.5rem;
+}
+
+#toggler:checked + aside .icons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.toggler {
+  width: 20px;
+  height: 2px;
+  background-color: black;
+  position: relative;
+  cursor: pointer;
+}
+
+.toggler::after,
+.toggler::before {
+  content: "";
+  width: 20px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  right: 5px;
+  transition: transform 0.3s ease;
+}
+
+.toggler::before {
+  top: -6px;
+}
+
+.toggler::after {
+  top: 6px;
+}
+
+.sidebar .icons {
+  align-items: start;
+}
+
+
+@media (max-width: 832px) {
+  html {
+    font-size: 14px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .side-nav {
+    display: block !important;
+
+  }
+  .side-nav > ul {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5px;
+    font-size: 1.2rem;
+  }
+
+  .sidebar{
+    display: block;
+  }
+}

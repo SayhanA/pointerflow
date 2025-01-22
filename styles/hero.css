@@ -1,0 +1,144 @@
+/* Hero Section */
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  overflow: hidden;
+}
+
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 0;
+}
+
+.hero .content {
+  max-width: 50%;
+}
+
+.hero-content {
+  position: relative;
+}
+
+.hero-title {
+  display: inline;
+  font-family: "Mollie", Courier, monospace;
+  line-height: 110px;
+  font-weight: 400;
+  font-size: 4.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero-title-img {
+  width: 170px;
+  height: 103.14px;
+  top: 91px;
+  left: 406px;
+  gap: 0px;
+  border-radius: 0px 0px 34px 35px;
+  position: absolute;
+}
+
+/* .hero p {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  color: var(--deep-gray);
+} */
+
+.stats {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 4.2rem;
+}
+
+.stat span {
+  font-family: "Mollie";
+  color: #3b7b64;
+}
+
+/* Hero Image */
+.hero .image {
+  position: relative;
+  max-width: 45%;
+  z-index: 1000;
+}
+
+.hero .image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.hero .badge {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  background: var(--Deep-jungle-green);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+.hero-description {
+  max-width: 550px;
+  margin-top: 20px;
+  margin-bottom: 48px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--deep-gray);
+}
+
+.h-line {
+  min-height: 100%;
+  border: 1px solid green;
+}
+
+.hero .buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.hero-img {
+  width: 50%;
+  height: 706px;
+  object-fit: contain;
+  left: 45%;
+  top: 50%;
+  transform: translateY(-42%);
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+}
+
+.gredient {
+  width: 1100px;
+  height: 1100px;
+  top: -400px;
+  left: -502px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 100%;
+  position: absolute;
+  background: radial-gradient(circle, var(--Linen) 40%, white, white);
+
+  z-index: -10;
+  /* box-shadow: 10px 10px 50px #fcf5f0; */
+}
+
+.gredient-bottom {
+  width: 1100px;
+  height: 1100px;
+  top: 500px;
+  left: 1200px;
+  border-radius: 100%;
+  position: absolute;
+  background: radial-gradient(circle, var(--Lemon-chifon) 40%, white, white);
+
+  z-index: -10;
+  /* box-shadow: 10px 10px 50px #fcf5f0; */
+}
